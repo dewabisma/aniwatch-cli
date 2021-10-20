@@ -1,11 +1,12 @@
 #! /usr/bin/env node
 import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
-const argv = yargs(hideBin(process.argv)).argv;
 import { showHelp, showAll, parseSentence, parseLanguage } from "./utils.js";
 import chalk from "chalk";
 import boxen from "boxen";
 import translate from "@vitalets/google-translate-api";
+
+const argv = yargs(hideBin(process.argv)).argv;
 
 console.log(argv);
 if (argv.l || argv.languages) {

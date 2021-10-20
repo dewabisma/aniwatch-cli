@@ -15,8 +15,10 @@
   "license": "ISC",
   "dependencies": {
     "@vitalets/google-translate-api": "^7.0.0",
+    "axios": "^0.23.0",
     "boxen": "^6.2.1",
     "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.10",
     "yargs": "^17.2.1"
   }
 }
